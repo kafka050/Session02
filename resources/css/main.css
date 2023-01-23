@@ -1,9 +1,11 @@
 body {
-    background-color: aquamarine;
+    background-color: slategray;
 }
-h1 {
-    color: blue;
+
+h2 {
+    color: black;
+    font-weight: bold;
 }
 li {
-    color: red;
+    color: lightpink;
 }
