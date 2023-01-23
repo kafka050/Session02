@@ -8,20 +8,31 @@
         <script async defer src="resources/js/new_member.js"></script>
     </head>
     <body>
-        <h2>Members</h2>
-        <ul>
-            <li>Jarod Kafka</li>
-            <li>Joe Rendleman</li>
-        </ul>
-
-        <h3>Fave Pizza</h3>
-        <ul>
-            <li>Jarod - Pep and shroom</li>
-            <li>Joe - BBQ Chicken SANS chicken</li>
-        </ul>
-        <h2 id="counter">0</h2>
-        <h2>Add New Member</h2>
-        <input id = "name input">
-        <button id = "submit">Submit</button>
+        <div id="top">
+            <h2>Pizza Fan Club</h2>
+        </div>
+        <div id="main">
+            <div id="members">
+                <h2>Members</h2>
+                <ul id="memberList">
+                    <li>Jarod Kafka</li>
+                    <li>Joe Rendleman</li>
+                </ul>
+            </div>
+            <div id="pizzas">
+                <h3>Fave Pizza</h3>
+                <ul id="pizzaList">
+                    <li>Jarod - Pep and shroom</li>
+                    <li>Joe - BBQ Chicken SANS chicken</li>
+                </ul>
+            </div>
+            <h3>Random counter: <span id="counter"></span></h3>
+            <h2>Add New Member</h2>
+            <input id = "name input">
+            <button id = "submit">Submit</button>
+        </div>
+        <div id="bottom">
+            <p>Thanks for visiting!</p>
+        </div>
     </body>
 </html>
